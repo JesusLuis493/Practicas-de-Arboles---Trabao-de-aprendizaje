@@ -11,9 +11,9 @@ Este repositorio a sido dreado con el fin de documentar mi avanse y manejo de lo
 practicas-de-Arboles---Trabajo-de-aprendizaje/                
 ├── bin/Debug/net8.0/                
 ├── obj/                  
-│   └── Debug/net8.0/            
-│       ├── ref/          
-│       └── refint/          
+│   └── Debug/net8.0/               
+│   │   ├── ref/          
+│   │   └── refint/          
 ├── Arbol.cs          #Lugar donde se lleva acabo la creacion del arbol  
 ├── Arboles.csproj           
 ├── Arboles.sln            
