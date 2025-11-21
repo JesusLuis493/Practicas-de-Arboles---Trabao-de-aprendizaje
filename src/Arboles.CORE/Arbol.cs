@@ -41,4 +41,26 @@ internal class Arbol
             preorden(apnodo.der);           //se dirije al nodo derecho y hace recurividad una vez terminado con el nodo izquierdo
         }
     }
+
+    //Recorrido en inorden
+    public void inorden(Nodo apnodo)
+    {
+        if (apnodo != null)
+        {
+            inorden(apnodo.izq);
+            Console.WriteLine(apnodo.info);
+            inorden(apnodo.der);
+        }
+    }
+
+    //Recorrido en postorden
+    public void postorden(Nodo apnodo)
+    {
+        if (apnodo != null)
+        {
+            postorden(apnodo.izq);
+            postorden(apnodo.der);
+            Console.WriteLine(apnodo.info);
+        }
+    }
 }

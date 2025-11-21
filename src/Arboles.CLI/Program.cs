@@ -11,8 +11,8 @@
             Console.WriteLine("[Menu de opciones para arboles]");
             Console.WriteLine("[1. Creacion del arbol]");
             Console.WriteLine("[2. Recorrido en preorden]");
-            Console.WriteLine("[3. Opcion pendite]");
-            Console.WriteLine("[4. Opcion pendite]");
+            Console.WriteLine("[3. Recorrido en inorden]");
+            Console.WriteLine("[4. Recorrido en postorden]");
             Console.WriteLine("[5. Opcion pendite]");
             Console.WriteLine("[6. Opcion pendite]");
             Console.WriteLine("[7. Opcion pendite]");
@@ -26,6 +26,14 @@
                 case 2:
                     Console.WriteLine("[Recorrido en preorden]");
                     arbolito.preorden(raiz);
+                    break;
+                case 3:
+                    Console.WriteLine("[Recorrido en inorden]");
+                    arbolito.inorden(raiz);
+                    break;
+                case 4:
+                    Console.WriteLine("[Recorrido en postorden]");
+                    arbolito.postorden(raiz);
                     break;
                 case 8:
                     Console.WriteLine("[Saliendo del programa]");
