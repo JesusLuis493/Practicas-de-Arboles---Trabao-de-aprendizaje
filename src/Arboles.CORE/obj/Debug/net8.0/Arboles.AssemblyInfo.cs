@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arboles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70db8d6dd21ab751e4f10e7c7f6f4f29222a25ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447ce6c42ad9e46354020bc3b1b836535a8e1d55")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arboles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arboles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
