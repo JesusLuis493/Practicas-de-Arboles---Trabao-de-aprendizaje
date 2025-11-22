@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Arboles.CORE\Arboles.csproj" />
+    <ProjectReference Include="../Arboles.CORE/Arboles.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
