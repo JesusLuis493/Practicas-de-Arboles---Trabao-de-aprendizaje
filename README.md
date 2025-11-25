@@ -38,15 +38,11 @@ practicas-de-Arboles_Trabajo-de-aprendizaje/
 <!-- las labores de CI se integran por la naturaleza de mi perfil y para facilitar el formato de entrega -->
 
 ## Metodo de uso  
- En caso de querer aser uso de este materia ya sea para aprendisaje o como retroalimentacion, el docigo se puede ejecutar facilmente desde la raiz (una vez teniendo los archivos en la maquina local), basta con introducir el comando 
- ``` bash
- dotnet build; dotnet run
- ```
-en la terminal, esto con el fin de primero revisar si todo funciona dentro del codigo y luego poder correro sin mayor dificultad.
+ En caso de querer aser uso de este materia ya sea para aprendisaje o como retroalimentacion, el docigo se puede ejecutar facilmente desde la raiz (una vez teniendo los archivos en la maquina local), basta con introducir el comando en la terminal, esto con el fin de primero revisar si todo funciona dentro del codigo y luego poder correro sin mayor dificultad.
  en su defecto, se pueden ejecutar de manera separada en su respectivo orden:
  ```bash
 dotnet build
-dotnet run
+ dotnet run --project src/Arboles.CLI
 ```
 
 ***NOTA*** : Se deve de estar situado en la ubicasion del archivo [Arboles.csproj](src/Arboles.CORE/Arboles.csproj) para asegurar que corra, ya que en dicha carpeta se situa la logica del proyecto.
